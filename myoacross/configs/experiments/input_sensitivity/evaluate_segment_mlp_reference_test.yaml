@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+checkpoint_path: data/experiments/policy_comparison/checkpoint/segment_mlp/final.pt
+output_dir: data/experiments/input_sensitivity/evaluations/segment_mlp/test_iter15000/reference
+perturbation:
+  target: reference
+  num_samples: 3
+  reference_magnitudes_deg:
+  - 2.5
+  - 5.0
+  - 10.0

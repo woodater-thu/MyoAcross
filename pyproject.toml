@@ -1,0 +1,24 @@
+[project]
+name = "myoacross"
+version = "0.1.0"
+description = "myoacross"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "mjlab>=1.6.0",
+    "musclemimic-models",
+    "hydra-core>=1.3.2,<1.4",
+    "omegaconf>=2.3.0,<2.4",
+    "scipy",
+    "smplx>=0.1.28",
+    "wandb>=0.29.0",
+]
+
+[project.optional-dependencies]
+analysis = ["SciencePlots>=2.2.2,<3", "pandas>=3,<4"]
+gait120 = ["mm-evalkit @ git+https://github.com/amathislab/mm-evalkit.git@b01319a51c54d201109dcb577f405567c5028589"]
+
+[tool.uv.sources]
+musclemimic-models = { git = "https://github.com/amathislab/musclemimic_models.git", rev = "635d0f632a75e2689997cff8b9497cc3c96d2cc2" }

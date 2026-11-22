@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+- /rl/train@_global_
+- _self_
+name: virtual0_film
+data:
+  morphology_source: subject
+output:
+  checkpoint_dir: data/experiments/virtual_embodiment_count/checkpoint/virtual0_film
+  logs_dir: data/experiments/virtual_embodiment_count/logs/virtual0_film

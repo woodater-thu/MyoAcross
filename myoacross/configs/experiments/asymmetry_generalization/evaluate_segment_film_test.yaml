@@ -1,0 +1,7 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+output_dir: data/experiments/asymmetry_generalization/evaluations/segment_film/test_iter15000
+bundle_root: data/experiments/asymmetry_generalization/embodiments_bundles/asymmetry_test

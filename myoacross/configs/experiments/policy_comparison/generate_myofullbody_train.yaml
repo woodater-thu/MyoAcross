@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+- /rl/generate@_global_
+- _self_
+data:
+  embodiment: baseline
+  bundle_root: data/experiments/policy_comparison/embodiments_bundles/myofullbody
+sampling: null
+count_per_subject: null
+seed: null

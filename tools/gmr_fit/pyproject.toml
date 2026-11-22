@@ -1,0 +1,24 @@
+[project]
+name = "myoacross-gmr-fit-tools"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "general-motion-retargeting",
+    "mjlab==1.6.0",
+    "hydra-core>=1.3.2,<1.4",
+    "omegaconf>=2.3.0,<2.4",
+    "musclemimic-models",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+general-motion-retargeting = {
+    git = "https://github.com/woodater-THU/gmr_plus.git",
+    rev = "7734081a7f3d7512388f71389d48048485ca0d8a",
+}
+musclemimic-models = {
+    git = "https://github.com/amathislab/musclemimic_models.git",
+    rev = "635d0f632a75e2689997cff8b9497cc3c96d2cc2",
+}

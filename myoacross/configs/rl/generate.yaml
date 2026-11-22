@@ -1,0 +1,44 @@
+data:
+  embodiment: segment_scale
+  bundle_root: data/myoacross/rl/embodiments_bundles
+count_per_subject: 10
+seed: 42
+workers: 16
+sampling:
+  covariance:
+    global_size_std: 0.01
+    axial_std: 0.005
+    upper_limb_std: 0.005
+    lower_limb_std: 0.005
+    region_std:
+      pelvis_sacrum: 0.005
+      trunk: 0.005
+      shoulder_girdle: 0.005
+      upper_arm: 0.008
+      forearm: 0.008
+      thigh: 0.008
+      shank: 0.008
+      foot: 0.005
+    asymmetry_std: 0.005
+    mass_size_coefficient: 2.0
+    mass_residual_std: 0.03
+  max_relative_change:
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.15
+  max_attempts: 1000
+simulation:
+  mujoco:
+    timestep: 0.002
+    integrator: implicitfast

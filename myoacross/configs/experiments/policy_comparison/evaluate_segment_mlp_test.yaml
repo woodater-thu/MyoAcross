@@ -1,0 +1,7 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+checkpoint_path: data/experiments/policy_comparison/checkpoint/segment_mlp/final.pt
+output_dir: data/experiments/policy_comparison/evaluations/segment_mlp/test_iter15000

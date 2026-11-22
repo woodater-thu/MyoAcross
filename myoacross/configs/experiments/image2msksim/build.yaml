@@ -1,0 +1,22 @@
+# Select one photograph or one video frame. Supply the subject ID, height, and mass.
+subject_id: ???
+image_path: null
+video_path: null
+video_frame_index: null
+body_mass_kg: ???
+height_m: ???
+person_index: null
+output_root: data/experiments/image2msksim
+cache_root: data/experiments/image2msksim/cache
+hsmr:
+  python: tools/hsmr/.venv/bin/python
+  model_root: data/experiments/image2msksim/resources/HSMR-ViTH-r1d1
+  device: cuda:0
+retarget_python: tools/gmr_fit/.venv/bin/python
+embodiment_config: myoacross/configs/embodiment/segment_scale.yaml
+retarget_config: myoacross/configs/retarget/gmr_fit.yaml
+checkpoint_path: data/myoacross/rl/checkpoint/final.pt
+policy_scheme: segment_film
+motion_ids: null
+device: cuda:0
+envs_per_subject: 64

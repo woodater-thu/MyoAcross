@@ -1,0 +1,221 @@
+{
+  "strategy": "segment_scale",
+  "subject_id": "demo_self_67kg",
+  "status": "passed",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "scale": "dimensionless"
+  },
+  "baseline_path": "musclemimic_models:myofullbody",
+  "scales": {
+    "regions": {
+      "pelvis_sacrum": 1.0624911080554384,
+      "trunk": 0.8805711619350719,
+      "shoulder_girdle": 1.1128401091954527,
+      "upper_arm_r": 0.9792241614673382,
+      "upper_arm_l": 0.9766944392401069,
+      "forearm_r": 1.0341042805340557,
+      "forearm_l": 1.0336251198633781,
+      "thigh_r": 1.0272414901162823,
+      "thigh_l": 1.0233591489308755,
+      "shank_r": 1.0719252399892678,
+      "shank_l": 1.0684781479636842,
+      "foot_r": 1.090430904464758,
+      "foot_l": 1.0900500255826036
+    },
+    "bound_regions": []
+  },
+  "optimization": {
+    "solver_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 10,
+    "regularization": {
+      "prior_weight": 1.0,
+      "sigma_symmetry": 0.03,
+      "sigma_adjacency": 0.15
+    },
+    "prior_scale": 0.9987174771358053,
+    "prior_scale_basis": "shoulder_ankle_heights",
+    "quality": {
+      "passed": true,
+      "max_normalized_measurement_error": 4.0,
+      "failed_measurements": []
+    },
+    "cost": 4.142739687444531,
+    "optimality": 7.398879389527469e-05
+  },
+  "checks": {
+    "mass_inertia_passed": true,
+    "tendon_muscle_passed": true,
+    "measurement_quality_passed": true
+  },
+  "mass": {
+    "actual_kg": 67.00000000000003,
+    "target_kg": 67.0,
+    "error_kg": 2.842170943040401e-14,
+    "density_scale": 0.8067521776122343
+  },
+  "measurement_stage": "final_compiled_model",
+  "measurements": {
+    "thigh_length_r": {
+      "actual_m": 0.41544407580460424,
+      "target_m": 0.41519909797269483,
+      "error_m": 0.0002449778319094098,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.02449778319094098,
+      "acceptance_limit_m": 0.04
+    },
+    "shank_length_r": {
+      "actual_m": 0.4289040657212061,
+      "target_m": 0.4295709470004719,
+      "error_m": -0.0006668812792657852,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.06668812792657852,
+      "acceptance_limit_m": 0.04
+    },
+    "thigh_length_l": {
+      "actual_m": 0.41387395265318555,
+      "target_m": 0.41421678003535334,
+      "error_m": -0.0003428273821677874,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.03428273821677874,
+      "acceptance_limit_m": 0.04
+    },
+    "shank_length_l": {
+      "actual_m": 0.4275247980917744,
+      "target_m": 0.4291633601829753,
+      "error_m": -0.0016385620912008902,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.16385620912008902,
+      "acceptance_limit_m": 0.04
+    },
+    "ankle_subtalar_length_r": {
+      "actual_m": 0.07067676338472641,
+      "target_m": 0.06232716718898351,
+      "error_m": 0.008349596195742895,
+      "used_for_scaling": true,
+      "tolerance_m": 0.015,
+      "normalized_abs_error": 0.5566397463828597,
+      "acceptance_limit_m": 0.06
+    },
+    "subtalar_mtp_length_r": {
+      "actual_m": 0.19498479900308507,
+      "target_m": 0.19696420217066757,
+      "error_m": -0.001979403167582494,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.1979403167582494,
+      "acceptance_limit_m": 0.04
+    },
+    "ankle_subtalar_length_l": {
+      "actual_m": 0.07065207655081328,
+      "target_m": 0.06227464774238996,
+      "error_m": 0.00837742880842332,
+      "used_for_scaling": true,
+      "tolerance_m": 0.015,
+      "normalized_abs_error": 0.5584952538948881,
+      "acceptance_limit_m": 0.06
+    },
+    "subtalar_mtp_length_l": {
+      "actual_m": 0.19491669235645825,
+      "target_m": 0.1965678054160204,
+      "error_m": -0.0016511130595621426,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.16511130595621426,
+      "acceptance_limit_m": 0.04
+    },
+    "upper_arm_length_r": {
+      "actual_m": 0.28468530672182335,
+      "target_m": 0.2828397510565213,
+      "error_m": 0.0018455556653020344,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.18455556653020344,
+      "acceptance_limit_m": 0.04
+    },
+    "forearm_length_r": {
+      "actual_m": 0.2522727012208044,
+      "target_m": 0.25345132679181304,
+      "error_m": -0.001178625571008618,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.1178625571008618,
+      "acceptance_limit_m": 0.04
+    },
+    "upper_arm_length_l": {
+      "actual_m": 0.28394985229114295,
+      "target_m": 0.2800004736487527,
+      "error_m": 0.0039493786423902555,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.39493786423902555,
+      "acceptance_limit_m": 0.04
+    },
+    "forearm_length_l": {
+      "actual_m": 0.25215580860273284,
+      "target_m": 0.2529637737940682,
+      "error_m": -0.000807965191335358,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.0807965191335358,
+      "acceptance_limit_m": 0.04
+    },
+    "hip_width": {
+      "actual_m": 0.16417612601672635,
+      "target_m": 0.16746266647140756,
+      "error_m": -0.003286540454681214,
+      "used_for_scaling": true,
+      "tolerance_m": 0.005,
+      "normalized_abs_error": 0.6573080909362428,
+      "acceptance_limit_m": 0.02
+    },
+    "shoulder_width": {
+      "actual_m": 0.3446865665380496,
+      "target_m": 0.3524080703735464,
+      "error_m": -0.007721503835496801,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.7721503835496801,
+      "acceptance_limit_m": 0.04
+    },
+    "trunk_length": {
+      "actual_m": 0.5449981034834841,
+      "target_m": 0.5425260498522836,
+      "error_m": 0.0024720536312005104,
+      "used_for_scaling": true,
+      "tolerance_m": 0.0075,
+      "normalized_abs_error": 0.32960715082673475,
+      "acceptance_limit_m": 0.03
+    },
+    "shoulder_ankle_height_r": {
+      "actual_m": 1.3828641945535929,
+      "target_m": 1.3833122104406357,
+      "error_m": -0.0004480158870427964,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.04480158870427964,
+      "acceptance_limit_m": 0.04
+    },
+    "shoulder_ankle_height_l": {
+      "actual_m": 1.3801893641007135,
+      "target_m": 1.3779695630073547,
+      "error_m": 0.002219801093358731,
+      "used_for_scaling": true,
+      "tolerance_m": 0.01,
+      "normalized_abs_error": 0.2219801093358731,
+      "acceptance_limit_m": 0.04
+    },
+    "height": {
+      "actual_m": 1.6612804578357223,
+      "target_m": null,
+      "error_m": null,
+      "used_for_scaling": false
+    }
+  }
+}

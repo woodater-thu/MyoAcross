@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+- /rl/generate@_global_
+- _self_
+data:
+  split: test
+  bundle_root: data/experiments/asymmetry_generalization/embodiments_bundles/asymmetry_test
+sampling: null
+count_per_subject: null
+seed: null
+body_perturbation:
+  model_root: data/experiments/asymmetry_generalization/embodiments
+  relative_shortening: [0.0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10]
+  sides: [left, right]

@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+- /rl/train@_global_
+- _self_
+name: asymmetry_enhanced_film
+data:
+  bundle_root: data/experiments/asymmetry_generalization/embodiments_bundles/asymmetry_enhanced
+output:
+  checkpoint_dir: data/experiments/asymmetry_generalization/checkpoint/asymmetry_enhanced_film
+  logs_dir: data/experiments/asymmetry_generalization/logs/asymmetry_enhanced_film

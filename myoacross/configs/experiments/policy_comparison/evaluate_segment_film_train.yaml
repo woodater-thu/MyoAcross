@@ -1,0 +1,7 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+output_dir: data/myoacross/rl/evaluations/train_iter15000
+split: train

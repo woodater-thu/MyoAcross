@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+- /rl/train@_global_
+- _self_
+name: segment_concat
+encoder:
+  mode: concat
+network:
+  group_hidden_dims:
+    morphology: [64, 128, 256]
+output:
+  checkpoint_dir: data/experiments/policy_comparison/checkpoint/segment_concat
+  logs_dir: data/experiments/policy_comparison/logs/segment_concat
+morphology_encoder: null

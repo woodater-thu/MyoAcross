@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+- /rl/train@_global_
+- _self_
+name: virtual5_film
+data:
+  bundle_root: data/experiments/virtual_embodiment_count/embodiments_bundles/virtual5
+output:
+  checkpoint_dir: data/experiments/virtual_embodiment_count/checkpoint/virtual5_film
+  logs_dir: data/experiments/virtual_embodiment_count/logs/virtual5_film

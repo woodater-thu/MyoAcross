@@ -1,0 +1,158 @@
+name: segment_film
+runtime:
+  seed: 42
+  device: cuda:0
+encoder:
+  mode: rl
+  checkpoint: null
+data:
+  dataset_version: embodiment_motion_v1
+  motion_set: kit_flat_locomotion_72
+  require_quality_pass: true
+  virtual_reference_mode: source_subject
+  embodiment: segment_scale
+  morphology_source: virtual
+  bundle_root: data/myoacross/rl/embodiments_bundles
+morphology_encoder:
+  input_dim: 18
+  hidden_dims:
+  - 64
+  - 128
+  latent_dim: 256
+  layernorm_eps: 1.0e-05
+network:
+  group_hidden_dims:
+    root:
+    - 32
+    - 64
+    joint:
+    - 1024
+    - 1024
+    muscle:
+    - 2048
+    - 2048
+    reference:
+    - 32
+    - 64
+    contact:
+    - 16
+    - 32
+  lookahead_frame_hidden_dims:
+  - 128
+  - 128
+  lookahead_fusion_hidden_dims:
+  - 256
+  hidden_dim: 2048
+  num_blocks: 6
+  generator_hidden_dim: 256
+  head_hidden_dims:
+  - 1024
+  - 512
+  residual_scale: 0.5
+  layernorm_eps: 1.0e-05
+  observation_min_std: 0.001
+  init_std: 0.5
+  initial_excitation: 0.1
+environment:
+  num_envs: 2048
+  env_spacing: 2.0
+  nconmax: 128
+  njmax: 512
+  decimation: 10
+  episode_length_s: 10.0
+  anchor_body_name: pelvis
+  tracking_body_names:
+  - pelvis
+  - torso
+  - head
+  - humerus_r
+  - ulna_r
+  - lunate_r
+  - humerus_l
+  - ulna_l
+  - lunate_l
+  - femur_r
+  - tibia_r
+  - calcn_r
+  - toes_r
+  - femur_l
+  - tibia_l
+  - calcn_l
+  - toes_l
+  tracking_joint_names:
+  - flex_extension
+  - lat_bending
+  - axial_rotation
+  - hip_flexion_l
+  - hip_flexion_r
+  - hip_adduction_l
+  - hip_adduction_r
+  - hip_rotation_l
+  - hip_rotation_r
+  - knee_angle_l
+  - knee_angle_r
+  - ankle_angle_l
+  - ankle_angle_r
+  - subtalar_angle_l
+  - subtalar_angle_r
+  sampling_mode: adaptive
+  lookahead_times_s:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  observation_options:
+    enable_corruption: false
+    enable_touch: true
+    enable_lookahead: true
+    enable_phase: true
+  reward_options:
+    weights:
+      anchor_position: 0.5
+      anchor_orientation: 0.5
+      body_position: 2.0
+      body_orientation: 0.5
+      body_linear_velocity: 0.8
+      body_angular_velocity: 0.5
+      joint_position: 0.6
+      joint_velocity: 0.2
+    stds:
+      anchor_position: 0.3
+      anchor_orientation: 0.4
+      body_position: 0.3
+      body_orientation: 0.4
+      body_linear_velocity: 1.0
+      body_angular_velocity: 3.14
+      joint_position: 0.3
+      joint_velocity: 2.0
+    excitation_change_weight: 0.0
+  termination_options:
+    anchor_position_ratio: 0.3
+    body_position_ratio: 0.3
+    anchor_orientation_threshold: 1.0
+training:
+  num_iterations: 15000
+  num_steps_per_env: 32
+  updates_per_embodiment: 10
+  save_interval: 1000
+  embodiments_per_rank: 8
+algorithm:
+  learning_rate: 3.0e-05
+  gamma: 0.99
+  lam: 0.95
+  num_learning_epochs: 3
+  num_mini_batches: 4
+  clip_param: 0.2
+  value_loss_coef: 1.0
+  entropy_coef: 0.0
+  max_grad_norm: 1.0
+  use_clipped_value_loss: true
+  desired_kl: 0.01
+logging:
+  wandb:
+    mode: offline
+    project: myoacross
+    entity: null
+output:
+  checkpoint_dir: data/myoacross/rl/checkpoint
+  logs_dir: data/myoacross/rl/logs

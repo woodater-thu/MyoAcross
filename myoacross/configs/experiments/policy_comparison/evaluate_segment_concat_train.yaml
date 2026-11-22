@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+checkpoint_path: data/experiments/policy_comparison/checkpoint/segment_concat/final.pt
+output_dir: data/experiments/policy_comparison/evaluations/segment_concat/train_iter15000
+split: train

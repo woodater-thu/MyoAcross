@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "dataset": "BMLmovi",
+  "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253157",
+  "retrieved_on": "2026-09-09",
+  "subjects": {
+    "BMLmovi_Subject_1_F_MoSh": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.84,
+      "body_mass_kg": 92
+    },
+    "BMLmovi_Subject_2_F_MoSh": {
+      "gender": "female",
+      "age_years": 33,
+      "height_m": 1.52,
+      "body_mass_kg": 54
+    },
+    "BMLmovi_Subject_3_F_MoSh": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.67,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_4_F_MoSh": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.78,
+      "body_mass_kg": 80
+    },
+    "BMLmovi_Subject_5_F_MoSh": {
+      "gender": "male",
+      "age_years": 23,
+      "height_m": 1.8,
+      "body_mass_kg": 73
+    },
+    "BMLmovi_Subject_6_F_MoSh": {
+      "gender": "female",
+      "age_years": 26,
+      "height_m": 1.55,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_8_F_MoSh": {
+      "gender": "female",
+      "age_years": 22,
+      "height_m": 1.6,
+      "body_mass_kg": 52
+    },
+    "BMLmovi_Subject_9_F_MoSh": {
+      "gender": "female",
+      "age_years": 23,
+      "height_m": 1.57,
+      "body_mass_kg": 48
+    },
+    "BMLmovi_Subject_11_F_MoSh": {
+      "gender": "male",
+      "age_years": 27,
+      "height_m": 1.78,
+      "body_mass_kg": 90
+    },
+    "BMLmovi_Subject_12_F_MoSh": {
+      "gender": "female",
+      "age_years": 26,
+      "height_m": 1.62,
+      "body_mass_kg": 68
+    },
+    "BMLmovi_Subject_13_F_MoSh": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.78,
+      "body_mass_kg": 77
+    },
+    "BMLmovi_Subject_14_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.57,
+      "body_mass_kg": 61
+    },
+    "BMLmovi_Subject_15_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.81,
+      "body_mass_kg": 72
+    },
+    "BMLmovi_Subject_16_F_MoSh": {
+      "gender": "female",
+      "age_years": 26,
+      "height_m": 1.63,
+      "body_mass_kg": 68
+    },
+    "BMLmovi_Subject_17_F_MoSh": {
+      "gender": "female",
+      "age_years": 26,
+      "height_m": 1.67,
+      "body_mass_kg": 65
+    },
+    "BMLmovi_Subject_18_F_MoSh": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.7,
+      "body_mass_kg": 65
+    },
+    "BMLmovi_Subject_19_F_MoSh": {
+      "gender": "male",
+      "age_years": 18,
+      "height_m": 1.67,
+      "body_mass_kg": 60
+    },
+    "BMLmovi_Subject_20_F_MoSh": {
+      "gender": "male",
+      "age_years": 29,
+      "height_m": 1.73,
+      "body_mass_kg": 60
+    },
+    "BMLmovi_Subject_21_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.6,
+      "body_mass_kg": 55
+    },
+    "BMLmovi_Subject_22_F_MoSh": {
+      "gender": "male",
+      "age_years": 28,
+      "height_m": 1.7,
+      "body_mass_kg": 66
+    },
+    "BMLmovi_Subject_23_F_MoSh": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.73,
+      "body_mass_kg": 73
+    },
+    "BMLmovi_Subject_24_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.6,
+      "body_mass_kg": 55
+    },
+    "BMLmovi_Subject_25_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.66,
+      "body_mass_kg": 55
+    },
+    "BMLmovi_Subject_27_F_MoSh": {
+      "gender": "male",
+      "age_years": 23,
+      "height_m": 1.63,
+      "body_mass_kg": 64
+    },
+    "BMLmovi_Subject_28_F_MoSh": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.83,
+      "body_mass_kg": 80
+    },
+    "BMLmovi_Subject_29_F_MoSh": {
+      "gender": "male",
+      "age_years": 24,
+      "height_m": 1.77,
+      "body_mass_kg": 61
+    },
+    "BMLmovi_Subject_30_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.78,
+      "body_mass_kg": 68
+    },
+    "BMLmovi_Subject_31_F_MoSh": {
+      "gender": "male",
+      "age_years": 28,
+      "height_m": 1.75,
+      "body_mass_kg": 64
+    },
+    "BMLmovi_Subject_32_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.68,
+      "body_mass_kg": 57
+    },
+    "BMLmovi_Subject_33_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.75,
+      "body_mass_kg": 60
+    },
+    "BMLmovi_Subject_34_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.55,
+      "body_mass_kg": 41
+    },
+    "BMLmovi_Subject_35_F_MoSh": {
+      "gender": "male",
+      "age_years": 29,
+      "height_m": 1.76,
+      "body_mass_kg": 72
+    },
+    "BMLmovi_Subject_36_F_MoSh": {
+      "gender": "male",
+      "age_years": 29,
+      "height_m": 1.74,
+      "body_mass_kg": 74
+    },
+    "BMLmovi_Subject_37_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.69,
+      "body_mass_kg": 63
+    },
+    "BMLmovi_Subject_38_F_MoSh": {
+      "gender": "female",
+      "age_years": 32,
+      "height_m": 1.57,
+      "body_mass_kg": 53
+    },
+    "BMLmovi_Subject_39_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.75,
+      "body_mass_kg": 77
+    },
+    "BMLmovi_Subject_40_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.75,
+      "body_mass_kg": 56
+    },
+    "BMLmovi_Subject_41_F_MoSh": {
+      "gender": "male",
+      "age_years": 28,
+      "height_m": 1.78,
+      "body_mass_kg": 100
+    },
+    "BMLmovi_Subject_42_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.65,
+      "body_mass_kg": 63
+    },
+    "BMLmovi_Subject_43_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.75,
+      "body_mass_kg": 80
+    },
+    "BMLmovi_Subject_44_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.62,
+      "body_mass_kg": 75
+    },
+    "BMLmovi_Subject_45_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.65,
+      "body_mass_kg": 48
+    },
+    "BMLmovi_Subject_46_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.88,
+      "body_mass_kg": 84
+    },
+    "BMLmovi_Subject_47_F_MoSh": {
+      "gender": "male",
+      "age_years": 18,
+      "height_m": 1.75,
+      "body_mass_kg": 80
+    },
+    "BMLmovi_Subject_48_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.44,
+      "body_mass_kg": 68
+    },
+    "BMLmovi_Subject_50_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.55,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_51_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.67,
+      "body_mass_kg": 63
+    },
+    "BMLmovi_Subject_52_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.62,
+      "body_mass_kg": 54
+    },
+    "BMLmovi_Subject_53_F_MoSh": {
+      "gender": "female",
+      "age_years": 23,
+      "height_m": 1.79,
+      "body_mass_kg": 60
+    },
+    "BMLmovi_Subject_54_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.65,
+      "body_mass_kg": 70
+    },
+    "BMLmovi_Subject_55_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.61,
+      "body_mass_kg": 62
+    },
+    "BMLmovi_Subject_56_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.76,
+      "body_mass_kg": 72
+    },
+    "BMLmovi_Subject_57_F_MoSh": {
+      "gender": "female",
+      "age_years": 17,
+      "height_m": 1.7,
+      "body_mass_kg": 61
+    },
+    "BMLmovi_Subject_58_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.58,
+      "body_mass_kg": 52
+    },
+    "BMLmovi_Subject_59_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.7,
+      "body_mass_kg": 68
+    },
+    "BMLmovi_Subject_60_F_MoSh": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.78,
+      "body_mass_kg": 73
+    },
+    "BMLmovi_Subject_61_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.67,
+      "body_mass_kg": 74
+    },
+    "BMLmovi_Subject_62_F_MoSh": {
+      "gender": "female",
+      "age_years": 17,
+      "height_m": 1.77,
+      "body_mass_kg": 69
+    },
+    "BMLmovi_Subject_63_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.6,
+      "body_mass_kg": 58
+    },
+    "BMLmovi_Subject_64_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.65,
+      "body_mass_kg": 49
+    },
+    "BMLmovi_Subject_65_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.74,
+      "body_mass_kg": 58
+    },
+    "BMLmovi_Subject_66_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.62,
+      "body_mass_kg": 50
+    },
+    "BMLmovi_Subject_67_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.74,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_68_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.74,
+      "body_mass_kg": 57
+    },
+    "BMLmovi_Subject_69_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.61,
+      "body_mass_kg": 65
+    },
+    "BMLmovi_Subject_70_F_MoSh": {
+      "gender": "female",
+      "age_years": 17,
+      "height_m": 1.78,
+      "body_mass_kg": 68
+    },
+    "BMLmovi_Subject_71_F_MoSh": {
+      "gender": "male",
+      "age_years": 18,
+      "height_m": 1.73,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_72_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.58,
+      "body_mass_kg": 60
+    },
+    "BMLmovi_Subject_73_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.62,
+      "body_mass_kg": 57
+    },
+    "BMLmovi_Subject_74_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.71,
+      "body_mass_kg": 61
+    },
+    "BMLmovi_Subject_75_F_MoSh": {
+      "gender": "male",
+      "age_years": 19,
+      "height_m": 1.62,
+      "body_mass_kg": 86
+    },
+    "BMLmovi_Subject_76_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.64,
+      "body_mass_kg": 61
+    },
+    "BMLmovi_Subject_77_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.7,
+      "body_mass_kg": 63
+    },
+    "BMLmovi_Subject_78_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.5,
+      "body_mass_kg": 46
+    },
+    "BMLmovi_Subject_79_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.68,
+      "body_mass_kg": 77
+    },
+    "BMLmovi_Subject_80_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.55,
+      "body_mass_kg": 70
+    },
+    "BMLmovi_Subject_81_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.65,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_82_F_MoSh": {
+      "gender": "female",
+      "age_years": 17,
+      "height_m": 1.68,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_83_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.78,
+      "body_mass_kg": 61
+    },
+    "BMLmovi_Subject_84_F_MoSh": {
+      "gender": "female",
+      "age_years": 20,
+      "height_m": 1.65,
+      "body_mass_kg": 63
+    },
+    "BMLmovi_Subject_85_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.74,
+      "body_mass_kg": 64
+    },
+    "BMLmovi_Subject_86_F_MoSh": {
+      "gender": "female",
+      "age_years": 18,
+      "height_m": 1.68,
+      "body_mass_kg": 59
+    },
+    "BMLmovi_Subject_87_F_MoSh": {
+      "gender": "male",
+      "age_years": 18,
+      "height_m": 1.85,
+      "body_mass_kg": 76
+    },
+    "BMLmovi_Subject_88_F_MoSh": {
+      "gender": "female",
+      "age_years": 19,
+      "height_m": 1.68,
+      "body_mass_kg": 57
+    },
+    "BMLmovi_Subject_89_F_MoSh": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.65,
+      "body_mass_kg": 54
+    },
+    "BMLmovi_Subject_90_F_MoSh": {
+      "gender": "female",
+      "age_years": 32,
+      "height_m": 1.65,
+      "body_mass_kg": 58
+    }
+  }
+}

@@ -1,0 +1,26 @@
+name: height_scale
+
+optimization:
+  scale_bounds: [0.7, 1.3]
+  prior_weight: 1.0
+
+  max_nfev: 100
+  
+  measurement_tolerances:
+    thigh_length_r: 0.01
+    thigh_length_l: 0.01
+    shank_length_r: 0.01
+    shank_length_l: 0.01
+    ankle_subtalar_length_r: 0.015
+    ankle_subtalar_length_l: 0.015
+    subtalar_mtp_length_r: 0.01
+    subtalar_mtp_length_l: 0.01
+    upper_arm_length_r: 0.01
+    upper_arm_length_l: 0.01
+    forearm_length_r: 0.01
+    forearm_length_l: 0.01
+    hip_width: 0.005
+    shoulder_width: 0.01
+    trunk_length: 0.0075
+    shoulder_ankle_height_r: 0.01
+    shoulder_ankle_height_l: 0.01

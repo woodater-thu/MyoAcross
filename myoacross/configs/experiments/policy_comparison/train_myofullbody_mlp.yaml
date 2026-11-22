@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+- /rl/train@_global_
+- _self_
+name: myofullbody_mlp
+encoder:
+  mode: none
+data:
+  embodiment: baseline
+  morphology_source: subject
+  bundle_root: data/experiments/policy_comparison/embodiments_bundles/myofullbody
+training:
+  embodiments_per_rank: 1
+output:
+  checkpoint_dir: data/experiments/policy_comparison/checkpoint/myofullbody_mlp
+  logs_dir: data/experiments/policy_comparison/logs/myofullbody_mlp
+morphology_encoder: null

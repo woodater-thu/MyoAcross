@@ -1,0 +1,6 @@
+# @package _global_
+
+defaults:
+- /experiments/asymmetry_generalization/evaluate_segment_film_test@_global_
+- _self_
+output_dir: data/experiments/asymmetry_generalization/evaluations/segment_film/physical_test_iter015000

@@ -1,0 +1,10 @@
+checkpoint_path: data/myoacross/rl/checkpoint/final.pt
+output_dir: data/myoacross/rl/evaluations/test_iter15000
+split: test
+target_embodiment: segment_scale
+subject_ids: null
+device: cuda:0
+seed: 42
+max_steps: null
+envs_per_subject: 64
+perturbation: null

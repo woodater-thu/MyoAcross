@@ -1,0 +1,33 @@
+[project]
+name = "myoacross-skel-tools"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "skel",
+    "scipy",
+    "omegaconf",
+    "psbody-mesh",
+    "chumpy",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+skel = {
+    git = "https://github.com/woodater-THU/SKEL.git",
+    rev = "acd729fdfe7bf17978c5f2ad257c2f1319f48561",
+}
+psbody-mesh = {
+    git = "https://github.com/MarilynKeller/mesh.git",
+    rev = "e8b04be3aaa1d262a3b7a05ef9e4085b4836b049",
+}
+chumpy = {
+    git = "https://github.com/MarilynKeller/chumpy.git",
+    rev = "0ed87ece06b03efb2d5b7d876acb8218737d7fad",
+}
+
+[tool.uv.extra-build-dependencies]
+chumpy = [
+    "pip",
+]

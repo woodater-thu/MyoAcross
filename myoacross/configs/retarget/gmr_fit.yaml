@@ -1,0 +1,32 @@
+name: gmr_fit
+
+smplh:
+  # Match the neutral body model used for target shape fitting.
+  gender_mode: neutral
+  num_betas: 16
+
+gmr:
+  use_fitted_shape: true
+  solver: daqp
+  damping: 0.5
+  target_fps: 50
+  offsets_mode: fitted
+  use_velocity_limit: false
+  offset_to_ground: false
+  verbose: false
+
+shape_fitting:
+  iterations: 500
+  lr: 0.001
+
+postprocess:
+  ground_correction: true
+
+export:
+  fps: 50
+
+performance:
+  # Box-bounded, reduced DAQP QP + batched targets (same QP, ~1e-11 agreement)
+  fast_ik: true
+  # Batched SMPL-H frame extraction (same interpolation, ~1e-15 agreement)
+  fast_frames: true

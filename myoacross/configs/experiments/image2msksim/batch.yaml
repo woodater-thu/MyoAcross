@@ -1,0 +1,9 @@
+# @package _global_
+defaults:
+  - /experiments/image2msksim/build@_global_
+  - _self_
+
+subject_id: null
+body_mass_kg: null
+height_m: null
+subjects_path: data/experiments/image2msksim/inputs/subjects.json

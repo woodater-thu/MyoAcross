@@ -1,0 +1,7 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+checkpoint_path: data/experiments/virtual_embodiment_count/checkpoint/virtual5_film/final.pt
+output_dir: data/experiments/virtual_embodiment_count/evaluations/virtual5_film/test_iter15000

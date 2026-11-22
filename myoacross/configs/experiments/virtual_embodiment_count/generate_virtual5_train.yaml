@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+- /rl/generate@_global_
+- _self_
+data:
+  bundle_root: data/experiments/virtual_embodiment_count/embodiments_bundles/virtual5
+count_per_subject: 5

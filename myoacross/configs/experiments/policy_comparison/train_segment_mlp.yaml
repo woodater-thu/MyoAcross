@@ -1,0 +1,12 @@
+# @package _global_
+
+defaults:
+- /rl/train@_global_
+- _self_
+name: segment_mlp
+encoder:
+  mode: none
+output:
+  checkpoint_dir: data/experiments/policy_comparison/checkpoint/segment_mlp
+  logs_dir: data/experiments/policy_comparison/logs/segment_mlp
+morphology_encoder: null

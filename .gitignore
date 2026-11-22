@@ -1,0 +1,60 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+wheels/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv
+venv/
+
+# Local editor and agent settings
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# Logs and local secrets
+*.log
+MUJOCO_LOG.TXT
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Licensed model parameters
+/data/models/
+
+# Source motions; retain subject metadata
+/data/dataset/*
+!/data/dataset/dataset.md
+!/data/dataset/KIT/
+!/data/dataset/BMLmovi/
+/data/dataset/KIT/*
+!/data/dataset/KIT/subjects.json
+/data/dataset/BMLmovi/*
+!/data/dataset/BMLmovi/subjects.json
+
+# Generated measurements, models, motions and experiments
+/artifacts/
+/data/myoacross/measurements/
+/data/myoacross/embodiments/
+/data/myoacross/retargets/
+/data/myoacross/experiments/
+/data/myoacross/embodiment_bundles/
+/data/myoacross/intermediate/
+/data/paper/
+# Standard and experiment runtime outputs
+/data/myoacross/rl/
+/data/experiments/
+/data/experiments_old/
+
+# Official source archives downloaded by the demo entry point
+/data/downloads/

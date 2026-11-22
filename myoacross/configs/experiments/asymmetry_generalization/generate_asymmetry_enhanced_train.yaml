@@ -1,0 +1,25 @@
+# @package _global_
+
+defaults:
+- /rl/generate@_global_
+- _self_
+data:
+  bundle_root: data/experiments/asymmetry_generalization/embodiments_bundles/asymmetry_enhanced
+sampling:
+  covariance:
+    asymmetry_std: 0.025
+  max_relative_change:
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.15

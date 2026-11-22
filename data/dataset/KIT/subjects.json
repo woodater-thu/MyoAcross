@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "dataset": "KIT",
+  "source": "https://motion-database.humanoids.kit.edu/list/subjects/",
+  "retrieved_on": "2026-09-08",
+  "subjects": {
+    "KIT_3": {
+      "gender": "male",
+      "age_years": 27,
+      "height_m": 1.8,
+      "body_mass_kg": 66
+    },
+    "KIT_4": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.82,
+      "body_mass_kg": 69
+    },
+    "KIT_6": {
+      "gender": "male",
+      "age_years": 27,
+      "height_m": 1.775,
+      "body_mass_kg": 71
+    },
+    "KIT_7": {
+      "gender": "male",
+      "age_years": 24,
+      "height_m": 1.92,
+      "body_mass_kg": 74
+    },
+    "KIT_8": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.82,
+      "body_mass_kg": 84
+    },
+    "KIT_9": {
+      "gender": "male",
+      "age_years": 28,
+      "height_m": 1.81,
+      "body_mass_kg": 70
+    },
+    "KIT_10": {
+      "gender": "female",
+      "age_years": 23,
+      "height_m": 1.69,
+      "body_mass_kg": 62
+    },
+    "KIT_11": {
+      "gender": "female",
+      "age_years": 23,
+      "height_m": 1.69,
+      "body_mass_kg": 55
+    },
+    "KIT_12": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.665,
+      "body_mass_kg": 60
+    },
+    "KIT_63": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.78,
+      "body_mass_kg": 75
+    },
+    "KIT_167": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.7,
+      "body_mass_kg": 85
+    },
+    "KIT_183": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.63,
+      "body_mass_kg": 52
+    },
+    "KIT_200": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.7,
+      "body_mass_kg": 60
+    },
+    "KIT_205": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.63,
+      "body_mass_kg": 61
+    },
+    "KIT_291": {
+      "gender": "male",
+      "age_years": 22,
+      "height_m": 1.75,
+      "body_mass_kg": 78
+    },
+    "KIT_314": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.67,
+      "body_mass_kg": 72
+    },
+    "KIT_317": {
+      "gender": "male",
+      "age_years": 29,
+      "height_m": 1.881,
+      "body_mass_kg": 65
+    },
+    "KIT_348": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.64,
+      "body_mass_kg": 58
+    },
+    "KIT_359": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.74,
+      "body_mass_kg": 87
+    },
+    "KIT_378": {
+      "gender": "male",
+      "age_years": 15,
+      "height_m": 1.71,
+      "body_mass_kg": 51
+    },
+    "KIT_379": {
+      "gender": "female",
+      "age_years": 55,
+      "height_m": 1.68,
+      "body_mass_kg": 55
+    },
+    "KIT_421": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.69,
+      "body_mass_kg": 62
+    },
+    "KIT_423": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.7,
+      "body_mass_kg": 70
+    },
+    "KIT_424": {
+      "gender": "male",
+      "age_years": 33,
+      "height_m": 1.86,
+      "body_mass_kg": 72
+    },
+    "KIT_425": {
+      "gender": "female",
+      "age_years": 21,
+      "height_m": 1.7,
+      "body_mass_kg": 65
+    },
+    "KIT_441": {
+      "gender": "male",
+      "age_years": 16,
+      "height_m": 1.73,
+      "body_mass_kg": 58
+    },
+    "KIT_442": {
+      "gender": "male",
+      "age_years": 16,
+      "height_m": 1.75,
+      "body_mass_kg": 50
+    },
+    "KIT_471": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.76,
+      "body_mass_kg": 80
+    },
+    "KIT_513": {
+      "gender": "male",
+      "age_years": 36,
+      "height_m": 1.75,
+      "body_mass_kg": 71
+    },
+    "KIT_551": {
+      "gender": "female",
+      "age_years": 23,
+      "height_m": 1.7,
+      "body_mass_kg": 66
+    },
+    "KIT_572": {
+      "gender": "male",
+      "age_years": 24,
+      "height_m": 1.92,
+      "body_mass_kg": 84
+    },
+    "KIT_575": {
+      "gender": "male",
+      "age_years": 23,
+      "height_m": 1.92,
+      "body_mass_kg": 93
+    },
+    "KIT_576": {
+      "gender": "male",
+      "age_years": 23,
+      "height_m": 1.7,
+      "body_mass_kg": 73
+    },
+    "KIT_674": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.7,
+      "body_mass_kg": 60
+    },
+    "KIT_675": {
+      "gender": "female",
+      "age_years": 24,
+      "height_m": 1.76,
+      "body_mass_kg": 74
+    },
+    "KIT_725": {
+      "gender": "male",
+      "age_years": 27,
+      "height_m": 1.84,
+      "body_mass_kg": 70
+    },
+    "KIT_883": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.63,
+      "body_mass_kg": 63
+    },
+    "KIT_912": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.78,
+      "body_mass_kg": 80
+    },
+    "KIT_917": {
+      "gender": "male",
+      "age_years": 30,
+      "height_m": 1.73,
+      "body_mass_kg": 69
+    },
+    "KIT_948": {
+      "gender": "male",
+      "age_years": 20,
+      "height_m": 1.84,
+      "body_mass_kg": 64
+    },
+    "KIT_950": {
+      "gender": "male",
+      "age_years": 18,
+      "height_m": 1.8,
+      "body_mass_kg": 65
+    },
+    "KIT_952": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.85,
+      "body_mass_kg": 80
+    },
+    "KIT_955": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.75,
+      "body_mass_kg": 70
+    },
+    "KIT_965": {
+      "gender": "male",
+      "age_years": 55,
+      "height_m": 1.75,
+      "body_mass_kg": 92
+    },
+    "KIT_969": {
+      "gender": "male",
+      "age_years": 25,
+      "height_m": 1.84,
+      "body_mass_kg": 85
+    },
+    "KIT_987": {
+      "gender": "male",
+      "age_years": 28,
+      "height_m": 1.86,
+      "body_mass_kg": 73
+    },
+    "KIT_1226": {
+      "gender": "male",
+      "age_years": 24,
+      "height_m": 1.67,
+      "body_mass_kg": 60
+    },
+    "KIT_1229": {
+      "gender": "male",
+      "age_years": 21,
+      "height_m": 1.83,
+      "body_mass_kg": 76
+    },
+    "KIT_1297": {
+      "gender": "male",
+      "age_years": 22,
+      "height_m": 1.89,
+      "body_mass_kg": 70
+    },
+    "KIT_1346": {
+      "gender": "female",
+      "age_years": 25,
+      "height_m": 1.62,
+      "body_mass_kg": 55
+    },
+    "KIT_1347": {
+      "gender": "male",
+      "age_years": 24,
+      "height_m": 1.8,
+      "body_mass_kg": 82
+    },
+    "KIT_1487": {
+      "gender": "male",
+      "age_years": 31,
+      "height_m": 1.77,
+      "body_mass_kg": 85
+    },
+    "KIT_1717": {
+      "gender": "male",
+      "age_years": 22,
+      "height_m": 1.78,
+      "body_mass_kg": 74
+    },
+    "KIT_1721": {
+      "gender": "male",
+      "age_years": 26,
+      "height_m": 1.76,
+      "body_mass_kg": 78
+    },
+    "KIT_1747": {
+      "gender": "male",
+      "age_years": 27,
+      "height_m": 1.7,
+      "body_mass_kg": 75
+    }
+  }
+}

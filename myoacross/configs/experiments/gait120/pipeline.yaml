@@ -1,0 +1,31 @@
+dataset_root: data/experiments/gait120/dataset
+kit_dataset_root: data/dataset
+smplh_model_dir: data/models/smplh
+output_root: data/experiments/gait120
+subject_ids: null
+seed: 42
+device: cuda:0
+checkpoint_iteration: 15000
+policies:
+  film: data/myoacross/rl/checkpoint/final.pt
+  concat: data/experiments/policy_comparison/checkpoint/segment_concat/final.pt
+  mlp: data/experiments/policy_comparison/checkpoint/segment_mlp/final.pt
+  v0: data/experiments/virtual_embodiment_count/checkpoint/virtual0_film/final.pt
+  asymmetry_augmentation: data/experiments/asymmetry_generalization/checkpoint/asymmetry_enhanced_film/final.pt
+embodiment_config: myoacross/configs/embodiment/segment_scale.yaml
+retarget_config: myoacross/configs/retarget/gmr_fit.yaml
+moshpp:
+  python: tools/moshpp/.venv/bin/python
+  support_dir: data/experiments/gait120/resources/moshpp
+  model_path: data/experiments/gait120/resources/moshpp/smplh/SMPLH_MALE_moshpp.pkl
+  pose_body_prior: data/experiments/gait120/resources/moshpp/smplh/pose_body_prior.pkl
+  pose_hand_prior: data/experiments/gait120/resources/moshpp/smplh/pose_hand_prior.npz
+  head_marker_corr: null
+environments:
+  prepare: .venv/bin/python
+  references: .venv/bin/python
+  measure: tools/skel/.venv/bin/python
+  embodiment: .venv/bin/python
+  retarget: tools/gmr_fit/.venv/bin/python
+  evaluate: .venv/bin/python
+  analysis: .venv/bin/python

@@ -1,0 +1,15 @@
+# @package _global_
+
+defaults:
+- /rl/evaluate@_global_
+- _self_
+checkpoint_path: data/experiments/policy_comparison/checkpoint/segment_concat/final.pt
+motion_ids: null
+output_dir: data/experiments/input_sensitivity/evaluations/segment_concat/test_iter15000/morphology
+perturbation:
+  target: morphology
+  num_samples: 3
+  morphology_magnitudes:
+  - 0.02
+  - 0.05
+  - 0.1
